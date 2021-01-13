@@ -83,9 +83,17 @@ body {
     border-radius: 4px;
 }
 
+.instagram-login:hover{
+    opacity:0.7;
+}
+
 .instagram-logout {
     color: #0095f6;
     margin-top: 1rem;
+}
+
+.instagram-logout:hover{
+    border-bottom: 1px solid #0095f6;
 }
 
 .not-account {
@@ -94,6 +102,11 @@ body {
 
 .link-blue {
     color: #0095f6;
+    cursor: pointer;
+}
+
+.link-blue:hover{
+    border-bottom: 1px solid #0095f6;
 }
 
 .get-the-app {
